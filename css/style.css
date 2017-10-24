@@ -211,6 +211,21 @@ span:hover::after {
   font-size: 14px;
 }
 
+@media screen and (max-width: 717px) {
+    img {
+        margin-top: 15px;
+    }
+    .service {
+        min-width: 75%;
+    }
+}
+
+@media screen and (max-width: 860px) {
+    .skill {
+        min-width: 35%;
+    }
+}
+
 @media screen and (max-width: 440px) {
     body {
         width: 95%;
@@ -230,21 +245,8 @@ span:hover::after {
     }
 }
 
-@media screen and (max-width: 717px) {
-    img {
-        margin-top: 15px;
-    }
-    .service {
-        min-width: 75%;
-    }
+@media screen and (max-width: 380px) {
     .skill {
         min-width: 90%;
-        margin: 10px auto;
-    }
-}
-
-@media screen and (max-width: 860px) {
-    .skill {
-        min-width: 35%;
     }
 }
