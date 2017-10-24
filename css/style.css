@@ -211,6 +211,12 @@ span:hover::after {
   font-size: 14px;
 }
 
+@media screen and (max-width: 860px) {
+    .skill {
+        min-width: 35%;
+    }
+}
+
 @media screen and (max-width: 717px) {
     img {
         margin-top: 15px;
@@ -218,11 +224,9 @@ span:hover::after {
     .service {
         min-width: 75%;
     }
-}
 
-@media screen and (max-width: 860px) {
     .skill {
-        min-width: 35%;
+        margin: 5px auto;
     }
 }
 
@@ -248,5 +252,6 @@ span:hover::after {
 @media screen and (max-width: 380px) {
     .skill {
         min-width: 90%;
+        margin: 5px auto;
     }
 }
